@@ -1,0 +1,14 @@
+Black box testiranje Calculator software
+
+Kalkulator nije u stanju da izvodi operacije sa zagradama.
+Kalkulator nije u stanju da oduzima procente tipa 100-10%
+Kalkulator radi zadovoljavajucom brzinom racuna proste operacije (plus,minus,mnozenje i deljenje)
+Kalkulator nije u stanju da izvodi kvadratne operacije
+Sa klijentske trane gledista rezultat bi trebao u terminalu da bude ispis tipa Your Result is: ili samo Result:
+Takodje nakon svakog rezultata trebalo bi da nam da novi ispis za pocetak nove operacije.
+
+Tokom testiranja pronasao sam odredjeni nedostatak
+a) U metodi za sabiranje nedostajala je izjava za "add" sta treba da uradi tacno.
+b) Metoda za oduzimanje je prosla test uspesno.
+c) Metoda za mnozenje je prosla test uspesno.
+d) Metoda za deljenje je prosla test uspesno.
